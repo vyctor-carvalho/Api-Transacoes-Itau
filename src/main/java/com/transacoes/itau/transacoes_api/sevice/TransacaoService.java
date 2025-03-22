@@ -42,7 +42,7 @@ public class TransacaoService {
         EstatisticasModel modelo = new EstatisticasModel();
 
         //Pegando a hora um minuto atrás
-        LocalDateTime minusMinutes = LocalDateTime.now().minusHours(1);
+        LocalDateTime minusMinutes = LocalDateTime.now().minusMinutes(1);
         System.out.println("menus minuto -> "+ minusMinutes.getHour() + ":" + minusMinutes.getMinute() + ":" + minusMinutes.getSecond());
 
         //Criando variaveis para colocar os valores a sere setados no modelo
